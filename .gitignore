@@ -1,0 +1,26 @@
+.DS_Store
+.idea
+*.log
+tmp/
+
+/target
+/classes
+/checkouts
+profiles.clj
+pom.xml
+pom.xml.asc
+*.jar
+*.class
+/.lein-*
+/.nrepl-port
+/.prepl-port
+/.cpcache
+/.clj-kondo
+dpm.edn
+dpm-postgres.edn
+# dpm datomic-pro download
+/datomic-pro
+# dpm sqlite db
+/storage
+# dpm backups
+/backups

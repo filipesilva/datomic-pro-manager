@@ -1,0 +1,9 @@
+{:bbin/bin {dpm {:main-opts ["-m" "filipesilva.datomic-pro-manager"]}}
+ :deps     {filipesilva/datomic-pro-manager {:local/root "."}}
+ :paths    ["src" "resources"]
+ :tasks    {clean (shell "rm -rf ./datomic-pro")
+            e2e (do
+                  (run 'clean)
+                  (shell "clj -M:datomic-pro-manager")
+                  (shell "dpm")
+                  (run 'clean))}}
