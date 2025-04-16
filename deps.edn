@@ -4,5 +4,5 @@
            io.github.paintparty/bling {:mvn/version "0.4.2"}
            org.babashka/cli           {:mvn/version "0.8.62"}}
  :aliases {:dpm
-           {:deps      {io.github.filipesilva/datomic-pro-manager {:git/tag "v1.0.0" :git/sha "742c396"}}
+           {:deps      {io.github.filipesilva/datomic-pro-manager {:git/tag "v1.0.0" :git/sha "abe0a40"}}
             :main-opts ["-m" "filipesilva.datomic-pro-manager"]}}}
