@@ -29,11 +29,11 @@
 ;; config
 
 (def default-config
-  {:datomic-version                    "1.0.7277" ;; will be picked up from deps.edn
+  {:datomic-version                    "1.0.7364" ;; will be picked up from deps.edn
    :datomic-transactor-properties-path (-> "filipesilva/datomic-pro-manager/sqlite/transactor.properties" io/resource fs/path str)
    :datomic-db-uri                     "datomic:sql://{db-name}?jdbc:sqlite:./storage/sqlite.db"
    :storage-type                       :sqlite
-   :sqlite-version                     "3.47.0.0" ;; will be picked up from deps.edn
+   :sqlite-version                     "3.49.1.0" ;; will be picked up from deps.edn
    :sqlite-init-path                   (-> "filipesilva/datomic-pro-manager/sqlite/init.sql" io/resource fs/path str)
    :postgresql-version                 "42.7.5"   ;; will be picked up from deps.edn
    })
