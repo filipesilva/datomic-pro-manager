@@ -20,7 +20,7 @@ Or as a local `deps.edn` alias that you call with `clojure -M:dpm`:
 
 ``` clojure
 {:aliases {:dpm
-           {:deps      {io.github.filipesilva/datomic-pro-manager {:git/tag "v1.0.0" :git/sha "abe0a40"}}
+           {:deps      {io.github.filipesilva/datomic-pro-manager {:git/tag "v1.0.1" :git/sha "0c00b89"}}
             :main-opts ["-m" "filipesilva.datomic-pro-manager"]}}}
 ```
 
